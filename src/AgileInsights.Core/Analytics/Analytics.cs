@@ -1,5 +1,4 @@
 ﻿using Abp.Domain.Entities.Auditing;
-using AgileInsights.Connectivity;
 using AgileInsights.Enums;
 using System;
 using System.Collections.Generic;
@@ -10,8 +9,6 @@ namespace AgileInsights.Analytics
 {
     public class Analytics : FullAuditedEntity<long>
     {
-        [ForeignKey("ConnectionString")]
-        public long ConnectionStringId { get; set; }
         public long OrganizationId { get; set; }
         public long DepartmentId { get; set; }
         public Periodicity Periodicity { get; set; }
@@ -20,6 +17,5 @@ namespace AgileInsights.Analytics
         public decimal Sum { get; set; }
         public int Count { get; set; }
 
-        public virtual ConnectionString ConnectionString { get; set; }
     }
 }
