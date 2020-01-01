@@ -16,6 +16,8 @@ namespace AgileInsights.EntityFrameworkCore
 
         public virtual DbSet<RemoteClient> RemoteClients { get; set; }
 
+        public virtual DbSet<RemoteToken> RemoteClientTokens { get; set; }
+
         public AgileInsightsDbContext(DbContextOptions<AgileInsightsDbContext> options)
             : base(options)
         {
