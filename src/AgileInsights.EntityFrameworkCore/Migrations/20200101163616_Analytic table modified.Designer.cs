@@ -4,14 +4,16 @@ using AgileInsights.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AgileInsights.Migrations
 {
     [DbContext(typeof(AgileInsightsDbContext))]
-    partial class AgileInsightsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200101163616_Analytic table modified")]
+    partial class Analytictablemodified
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
