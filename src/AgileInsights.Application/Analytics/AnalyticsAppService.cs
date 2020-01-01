@@ -16,7 +16,7 @@ namespace AgileInsights.Analytics
             IObjectMapper objectMapper)
         {
             _analyticsManager = analyticsManager;
-            _objectMapper = ObjectMapper;
+            _objectMapper = objectMapper;
         }
         public async Task<AnalyticsOutputDto> CreateOrUpdateAsync(AnalyticsInputDto input)
         {

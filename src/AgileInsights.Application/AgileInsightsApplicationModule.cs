@@ -1,6 +1,8 @@
 ﻿using Abp.AutoMapper;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
+using AgileInsights.Analytics;
+using AgileInsights.Analytics.Dto;
 using AgileInsights.Authorization;
 
 namespace AgileInsights
@@ -23,7 +25,12 @@ namespace AgileInsights
 
             Configuration.Modules.AbpAutoMapper().Configurators.Add(
                 // Scan the assembly for classes which inherit from AutoMapper.Profile
-                cfg => cfg.AddMaps(thisAssembly)
+                cfg =>
+                {
+                    cfg.AddMaps(thisAssembly);
+                    cfg.CreateMap<AnalyticsInputDto, Analytics.Analytics>();
+                    cfg.CreateMap<Analytics.Analytics, AnalyticsOutputDto>();
+                }
             );
         }
     }

@@ -26,6 +26,7 @@ namespace AgileInsights.Analytics
             {
                 using (var uow= _unitOfWorkManager.Begin(System.Transactions.TransactionScopeOption.RequiresNew))
                 {
+                    var result = new Analytics();
                     var existingData = _analyticsRepository.GetAll().Where(x => x.RemoteClientId == input.RemoteClientId
                      && x.Date.Year == input.Date.Year
                      && x.Date.Month == input.Date.Month
@@ -35,15 +36,18 @@ namespace AgileInsights.Analytics
                      && x.Periodicity == input.Periodicity).FirstOrDefault();
                     if (existingData==null)
                     {
-                      return await _analyticsRepository.InsertAsync(input);
+                        result= await _analyticsRepository.InsertAsync(input);
                     }
                     else
                     {
                         existingData.Average = input.Average;
                         existingData.Sum = input.Sum;
                         existingData.Count = input.Count;
-                        return await _analyticsRepository.UpdateAsync(existingData);
+                        result= await _analyticsRepository.UpdateAsync(existingData);
                     }
+                    _unitOfWorkManager.Current.SaveChanges();
+                    uow.Complete();
+                    return result;
                 }
             }
             catch (Exception ex)

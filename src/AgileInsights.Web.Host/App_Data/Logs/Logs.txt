@@ -591,3 +591,420 @@ INFO  2019-12-30 13:34:45,389 [35   ] uthentication.JwtBearer.JwtBearerHandler -
 INFO  2019-12-30 13:34:45,393 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
 DEBUG 2019-12-30 13:34:45,400 [48   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"J8HWBVFnE7VU1eBTx95IvA","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2019-12-30T13:34:45.4007746+05:30","Properties":{}}
 DEBUG 2019-12-30 13:34:45,402 [45   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: J8HWBVFnE7VU1eBTx95IvA
+DEBUG 2020-01-01 23:10:13,218 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-01 23:10:13,718 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-01 23:10:13,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.Web.Host.Startup.AgileInsightsWebHostModule, AgileInsights.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsWebCoreModule, AgileInsights.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsApplicationModule, AgileInsights.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,755 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsCoreModule, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.EntityFrameworkCore.AgileInsightsEntityFrameworkModule, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:13,760 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-01 23:10:13,944 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:10:13,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:10:13,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AgileInsights (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:10:13,944 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:10:14,801 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AgileInsights.EntityFrameworkCore.AgileInsightsDbContext, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:10:15,961 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-01 23:10:16,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-01 23:10:16,027 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-01 23:10:16,032 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AgileInsights
+DEBUG 2020-01-01 23:10:16,037 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-01 23:10:16,296 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-01 23:10:16,470 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AgileInsights.MultiTenancy.Tenant, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AgileInsights.Authorization.Users.User, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-01 23:10:16,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-01-01 23:10:16,524 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-01 23:10:16,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.CreateUserDto
+DEBUG 2020-01-01 23:10:16,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.UserDto
+DEBUG 2020-01-01 23:10:16,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-01 23:10:16,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-01 23:10:16,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Roles.Dto.PermissionDto
+DEBUG 2020-01-01 23:10:16,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-01 23:10:16,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.TenantDto
+INFO  2020-01-01 23:10:19,725 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-01 23:10:20,700 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\sugun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-01 23:10:20,844 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-01 23:10:21,213 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:10:25,698 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AgileInsights.Web.Host.Controllers.HomeController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:10:27,267 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-01 23:10:27,278 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host) in 1572.1639ms
+INFO  2020-01-01 23:10:27,281 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:10:27,300 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6460.3217ms 302 
+INFO  2020-01-01 23:10:27,332 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-01-01 23:10:27,401 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 67.3776ms 301 
+INFO  2020-01-01 23:10:27,406 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-01 23:10:27,576 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 169.6085ms 200 text/html;charset=utf-8
+INFO  2020-01-01 23:10:27,596 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-01-01 23:10:27,601 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-01-01 23:10:27,642 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-01-01 23:10:27,646 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.0934ms 200 text/css
+INFO  2020-01-01 23:10:27,656 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-01-01 23:10:27,667 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-01-01 23:10:27,669 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.3155ms 200 application/javascript
+INFO  2020-01-01 23:10:27,674 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-01-01 23:10:27,678 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.8064ms 200 application/javascript
+INFO  2020-01-01 23:10:27,684 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-01-01 23:10:27,687 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-01-01 23:10:27,714 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\Agile innovations projects\AgileInsights\5.1.0\aspnet-core\src\AgileInsights.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-01-01 23:10:27,725 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.1829ms 200 application/javascript
+INFO  2020-01-01 23:10:27,728 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\Agile innovations projects\AgileInsights\5.1.0\aspnet-core\src\AgileInsights.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-01-01 23:10:27,730 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.6306ms 200 application/javascript
+INFO  2020-01-01 23:10:28,005 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-01 23:10:28,010 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:10:28,024 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AgileInsights.Web.Host.Controllers.AntiForgeryController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:10:28,056 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:10:28,060 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-01 23:10:28,083 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host) in 56.1661ms
+INFO  2020-01-01 23:10:28,087 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:10:28,092 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 85.7779ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:10:28,118 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-01-01 23:10:28,234 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-01-01 23:10:28,245 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 120.299ms 200 image/png
+INFO  2020-01-01 23:10:28,346 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 285.9194ms 200 application/json;charset=utf-8
+INFO  2020-01-01 23:11:22,690 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:11:22,699 [13   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:11:22,703 [13   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:11:22,708 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:11:22,744 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+DEBUG 2020-01-01 23:14:33,298 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-01 23:14:33,403 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-01 23:14:33,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.Web.Host.Startup.AgileInsightsWebHostModule, AgileInsights.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsWebCoreModule, AgileInsights.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsApplicationModule, AgileInsights.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsCoreModule, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.EntityFrameworkCore.AgileInsightsEntityFrameworkModule, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:33,432 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-01 23:14:33,506 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:14:33,506 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:14:33,506 [1    ] o.Configuration.LanguageManagementConfig - Converted AgileInsights (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:14:33,506 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:14:33,824 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AgileInsights.EntityFrameworkCore.AgileInsightsDbContext, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:14:34,850 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-01 23:14:34,884 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-01 23:14:34,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-01 23:14:34,901 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AgileInsights
+DEBUG 2020-01-01 23:14:34,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-01 23:14:35,152 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-01 23:14:35,310 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AgileInsights.MultiTenancy.Tenant, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AgileInsights.Authorization.Users.User, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-01 23:14:35,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-01-01 23:14:35,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-01 23:14:35,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.CreateUserDto
+DEBUG 2020-01-01 23:14:35,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.UserDto
+DEBUG 2020-01-01 23:14:35,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-01 23:14:35,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-01 23:14:35,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Roles.Dto.PermissionDto
+DEBUG 2020-01-01 23:14:35,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-01 23:14:35,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.TenantDto
+INFO  2020-01-01 23:14:37,841 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-01 23:14:38,142 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\sugun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-01 23:14:38,214 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-01 23:14:38,322 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:14:42,713 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AgileInsights.Web.Host.Controllers.HomeController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:14:44,144 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-01 23:14:44,153 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host) in 1434.3485ms
+INFO  2020-01-01 23:14:44,157 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:14:44,178 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5964.9764ms 302 
+INFO  2020-01-01 23:14:44,193 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-01 23:14:44,361 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 168.2914ms 200 text/html;charset=utf-8
+INFO  2020-01-01 23:14:44,629 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-01 23:14:44,636 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:14:44,646 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AgileInsights.Web.Host.Controllers.AntiForgeryController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:14:44,672 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-01 23:14:44,677 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:14:44,701 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host) in 51.0097ms
+INFO  2020-01-01 23:14:44,704 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:14:44,710 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 80.8294ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:14:44,875 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 202.6917ms 200 application/json;charset=utf-8
+INFO  2020-01-01 23:15:41,542 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:15:41,549 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:15:41,552 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:15:41,557 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:15:41,584 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+DEBUG 2020-01-01 23:27:09,686 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-01 23:27:09,809 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-01 23:27:09,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.Web.Host.Startup.AgileInsightsWebHostModule, AgileInsights.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsWebCoreModule, AgileInsights.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsApplicationModule, AgileInsights.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsCoreModule, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.EntityFrameworkCore.AgileInsightsEntityFrameworkModule, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:09,864 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-01 23:27:09,954 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:27:09,954 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:27:09,954 [1    ] o.Configuration.LanguageManagementConfig - Converted AgileInsights (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:27:09,954 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:27:10,275 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AgileInsights.EntityFrameworkCore.AgileInsightsDbContext, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:27:11,372 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-01 23:27:11,407 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-01 23:27:11,420 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-01 23:27:11,425 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AgileInsights
+DEBUG 2020-01-01 23:27:11,430 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-01 23:27:11,714 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-01 23:27:11,895 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AgileInsights.MultiTenancy.Tenant, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AgileInsights.Authorization.Users.User, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-01 23:27:11,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-01-01 23:27:11,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-01 23:27:11,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.CreateUserDto
+DEBUG 2020-01-01 23:27:11,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.UserDto
+DEBUG 2020-01-01 23:27:11,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-01 23:27:11,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-01 23:27:11,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Roles.Dto.PermissionDto
+DEBUG 2020-01-01 23:27:11,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-01 23:27:11,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.TenantDto
+INFO  2020-01-01 23:27:14,465 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-01 23:27:14,758 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\sugun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-01 23:27:14,831 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-01 23:27:14,936 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:27:19,154 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AgileInsights.Web.Host.Controllers.HomeController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:27:20,573 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-01 23:27:20,583 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host) in 1421.4521ms
+INFO  2020-01-01 23:27:20,586 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:27:20,603 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5773.4531ms 302 
+INFO  2020-01-01 23:27:20,618 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-01 23:27:20,787 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 169.2239ms 200 text/html;charset=utf-8
+INFO  2020-01-01 23:27:20,941 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-01 23:27:20,947 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:27:20,956 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AgileInsights.Web.Host.Controllers.AntiForgeryController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:27:20,986 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:27:21,005 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host) in 47.0308ms
+INFO  2020-01-01 23:27:21,008 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:27:21,011 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.1277ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:27:21,035 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-01 23:27:21,237 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 180.985ms 200 application/json;charset=utf-8
+INFO  2020-01-01 23:27:31,915 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:27:31,930 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:27:31,934 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:27:31,940 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:27:31,962 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+DEBUG 2020-01-01 23:30:15,156 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-01 23:30:15,267 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-01 23:30:15,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.Web.Host.Startup.AgileInsightsWebHostModule, AgileInsights.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsWebCoreModule, AgileInsights.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsApplicationModule, AgileInsights.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsCoreModule, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.EntityFrameworkCore.AgileInsightsEntityFrameworkModule, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:15,293 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-01 23:30:15,377 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:30:15,377 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:30:15,377 [1    ] o.Configuration.LanguageManagementConfig - Converted AgileInsights (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:30:15,377 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:30:15,780 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AgileInsights.EntityFrameworkCore.AgileInsightsDbContext, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:30:16,925 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-01 23:30:16,963 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-01 23:30:16,973 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-01 23:30:16,979 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AgileInsights
+DEBUG 2020-01-01 23:30:16,983 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-01 23:30:17,259 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-01 23:30:17,430 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AgileInsights.MultiTenancy.Tenant, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AgileInsights.Authorization.Users.User, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-01 23:30:17,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-01-01 23:30:17,496 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-01 23:30:17,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.CreateUserDto
+DEBUG 2020-01-01 23:30:17,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.UserDto
+DEBUG 2020-01-01 23:30:17,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-01 23:30:17,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-01 23:30:17,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Roles.Dto.PermissionDto
+DEBUG 2020-01-01 23:30:17,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-01 23:30:17,505 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.TenantDto
+INFO  2020-01-01 23:30:20,093 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-01 23:30:20,388 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\sugun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-01 23:30:20,468 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-01 23:30:20,573 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:30:24,776 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AgileInsights.Web.Host.Controllers.HomeController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:30:26,150 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-01 23:30:26,159 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host) in 1375.8952ms
+INFO  2020-01-01 23:30:26,162 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:30:26,181 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5713.3707ms 302 
+INFO  2020-01-01 23:30:26,195 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-01 23:30:26,366 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 170.4523ms 200 text/html;charset=utf-8
+INFO  2020-01-01 23:30:26,527 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-01 23:30:26,534 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:30:26,546 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AgileInsights.Web.Host.Controllers.AntiForgeryController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:30:26,579 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:30:26,602 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host) in 53.1266ms
+INFO  2020-01-01 23:30:26,605 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:30:26,609 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.2642ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:30:26,634 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-01 23:30:26,914 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 281.7757ms 200 application/json;charset=utf-8
+INFO  2020-01-01 23:31:06,251 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:31:06,259 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:31:06,262 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:31:06,269 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:31:06,292 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+INFO  2020-01-01 23:31:24,439 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:31:24,448 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application) in 18153.7233ms
+INFO  2020-01-01 23:31:24,451 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:31:24,453 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18203.2048ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:32:21,395 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:32:21,399 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:32:21,402 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:32:21,408 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:32:21,416 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+DEBUG 2020-01-01 23:35:14,794 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-01 23:35:15,127 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-01 23:35:15,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.Web.Host.Startup.AgileInsightsWebHostModule, AgileInsights.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,145 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsWebCoreModule, AgileInsights.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,145 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsApplicationModule, AgileInsights.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsCoreModule, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.EntityFrameworkCore.AgileInsightsEntityFrameworkModule, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:15,151 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-01 23:35:15,513 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:35:15,513 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:35:15,513 [1    ] o.Configuration.LanguageManagementConfig - Converted AgileInsights (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:35:15,513 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:35:16,094 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AgileInsights.EntityFrameworkCore.AgileInsightsDbContext, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:35:17,121 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-01 23:35:17,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-01 23:35:17,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-01 23:35:17,170 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AgileInsights
+DEBUG 2020-01-01 23:35:17,176 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-01 23:35:17,408 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-01 23:35:17,560 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AgileInsights.MultiTenancy.Tenant, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AgileInsights.Authorization.Users.User, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-01 23:35:17,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-01-01 23:35:17,624 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-01 23:35:17,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.CreateUserDto
+DEBUG 2020-01-01 23:35:17,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.UserDto
+DEBUG 2020-01-01 23:35:17,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-01 23:35:17,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-01 23:35:17,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Roles.Dto.PermissionDto
+DEBUG 2020-01-01 23:35:17,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-01 23:35:17,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.TenantDto
+INFO  2020-01-01 23:35:20,352 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-01 23:35:21,005 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\sugun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-01 23:35:21,094 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-01 23:35:21,317 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:35:25,792 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AgileInsights.Web.Host.Controllers.HomeController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:35:27,314 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-01 23:35:27,327 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host) in 1524.7884ms
+INFO  2020-01-01 23:35:27,330 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:35:27,353 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6260.0684ms 302 
+INFO  2020-01-01 23:35:27,397 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-01 23:35:27,607 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 210.7205ms 200 text/html;charset=utf-8
+INFO  2020-01-01 23:35:27,773 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-01 23:35:27,782 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:35:27,796 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AgileInsights.Web.Host.Controllers.AntiForgeryController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:35:27,831 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:35:27,859 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host) in 59.4681ms
+INFO  2020-01-01 23:35:27,862 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:35:27,867 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.1744ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:35:27,886 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-01 23:35:28,092 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 205.4521ms 200 application/json;charset=utf-8
+INFO  2020-01-01 23:35:36,396 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:35:36,412 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:35:36,415 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:35:36,422 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:35:36,445 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+DEBUG 2020-01-01 23:37:54,720 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-01-01 23:37:54,799 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-01-01 23:37:54,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.Web.Host.Startup.AgileInsightsWebHostModule, AgileInsights.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsWebCoreModule, AgileInsights.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsApplicationModule, AgileInsights.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.AgileInsightsCoreModule, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AgileInsights.EntityFrameworkCore.AgileInsightsEntityFrameworkModule, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:54,822 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-01-01 23:37:54,902 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:37:54,902 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:37:54,902 [1    ] o.Configuration.LanguageManagementConfig - Converted AgileInsights (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:37:54,902 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-01-01 23:37:55,243 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AgileInsights.EntityFrameworkCore.AgileInsightsDbContext, AgileInsights.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-01-01 23:37:56,330 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-01-01 23:37:56,426 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-01-01 23:37:56,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-01-01 23:37:56,450 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AgileInsights
+DEBUG 2020-01-01 23:37:56,456 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-01-01 23:37:56,753 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-01-01 23:37:56,907 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[AgileInsights.MultiTenancy.Tenant, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[AgileInsights.Authorization.Users.User, AgileInsights.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-01-01 23:37:56,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-01-01 23:37:56,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-01-01 23:37:56,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.CreateUserDto
+DEBUG 2020-01-01 23:37:56,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Users.Dto.UserDto
+DEBUG 2020-01-01 23:37:56,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-01-01 23:37:56,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-01-01 23:37:56,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.Roles.Dto.PermissionDto
+DEBUG 2020-01-01 23:37:56,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-01-01 23:37:56,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AgileInsights.MultiTenancy.Dto.TenantDto
+INFO  2020-01-01 23:37:59,750 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-01-01 23:38:00,105 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\sugun\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-01-01 23:38:00,183 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-01-01 23:38:00,282 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:38:05,174 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller AgileInsights.Web.Host.Controllers.HomeController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:38:07,031 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-01-01 23:38:07,041 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host) in 1860.3962ms
+INFO  2020-01-01 23:38:07,045 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.HomeController.Index (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:38:07,067 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6885.1012ms 302 
+INFO  2020-01-01 23:38:07,083 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-01-01 23:38:07,321 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 238.2107ms 200 text/html;charset=utf-8
+INFO  2020-01-01 23:38:07,530 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-01-01 23:38:07,536 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:38:07,547 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller AgileInsights.Web.Host.Controllers.AntiForgeryController (AgileInsights.Web.Host).
+INFO  2020-01-01 23:38:07,588 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:38:07,613 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host) in 63.3614ms
+INFO  2020-01-01 23:38:07,616 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Web.Host.Controllers.AntiForgeryController.SetCookie (AgileInsights.Web.Host)'
+INFO  2020-01-01 23:38:07,620 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.2758ms 200 application/json; charset=utf-8
+INFO  2020-01-01 23:38:07,655 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-01-01 23:38:07,920 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 265.8557ms 200 application/json;charset=utf-8
+INFO  2020-01-01 23:44:04,639 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Analytics/CreateOrUpdate application/json-patch+json 205
+INFO  2020-01-01 23:44:04,646 [12   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-01-01 23:44:04,648 [12   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-01-01 23:44:04,653 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:44:04,672 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdate", controller = "Analytics"}. Executing controller action with signature System.Threading.Tasks.Task`1[AgileInsights.Analytics.Dto.AnalyticsOutputDto] CreateOrUpdateAsync(AgileInsights.Analytics.Dto.AnalyticsInputDto) on controller AgileInsights.Analytics.AnalyticsAppService (AgileInsights.Application).
+INFO  2020-01-01 23:44:17,141 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-01-01 23:44:17,156 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application) in 12476.8388ms
+INFO  2020-01-01 23:44:17,159 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'AgileInsights.Analytics.AnalyticsAppService.CreateOrUpdateAsync (AgileInsights.Application)'
+INFO  2020-01-01 23:44:17,162 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12523.3058ms 200 application/json; charset=utf-8
