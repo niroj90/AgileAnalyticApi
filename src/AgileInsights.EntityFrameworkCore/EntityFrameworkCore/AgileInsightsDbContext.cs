@@ -21,6 +21,7 @@ namespace AgileInsights.EntityFrameworkCore
         public AgileInsightsDbContext(DbContextOptions<AgileInsightsDbContext> options)
             : base(options)
         {
+            Database.SetCommandTimeout(180000);
         }
     }
 }

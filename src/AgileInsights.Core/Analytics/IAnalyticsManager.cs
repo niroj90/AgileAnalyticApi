@@ -9,7 +9,7 @@ namespace AgileInsights.Analytics
     public interface IAnalyticsManager : IDomainService
     {
         Task<Analytics> CreateOrUpdateAsync(Analytics input);
-       
+        Task BatchCreateOrUpdateAsync(List<Analytics> input);
 
     }
 }

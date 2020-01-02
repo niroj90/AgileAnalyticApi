@@ -9,6 +9,8 @@ namespace AgileInsights.Analytics
 {
     public interface IAnalyticsAppService:IApplicationService
     {
-        Task<AnalyticsOutputDto> CreateOrUpdateAsync(AnalyticsInputDto input); 
+        Task<AnalyticsOutputDto> CreateOrUpdateAsync(AnalyticsInputDto input);
+
+        Task BatchCreateOrUpdat(List<AnalyticsInputDto> input);
     }
 }

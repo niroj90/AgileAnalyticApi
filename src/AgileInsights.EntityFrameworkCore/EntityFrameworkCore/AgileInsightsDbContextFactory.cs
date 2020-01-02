@@ -15,7 +15,6 @@ namespace AgileInsights.EntityFrameworkCore
             var configuration = AppConfigurations.Get(WebContentDirectoryFinder.CalculateContentRootFolder());
 
             AgileInsightsDbContextConfigurer.Configure(builder, configuration.GetConnectionString(AgileInsightsConsts.ConnectionStringName));
-
             return new AgileInsightsDbContext(builder.Options);
         }
     }

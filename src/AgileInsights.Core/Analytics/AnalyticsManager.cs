@@ -20,6 +20,50 @@ namespace AgileInsights.Analytics
             _unitOfWorkManager = unitOfWorkManager;
             _analyticsRepository = analyticsRepository;
         }
+
+        public async Task BatchCreateOrUpdateAsync(List<Analytics> input)
+        {
+            try
+            {
+                using (var uow = _unitOfWorkManager.Begin(System.Transactions.TransactionScopeOption.RequiresNew))
+                {
+
+                    if (input!=null && input.Count>0)
+                    {
+                        foreach (var record in input)
+                        {
+                            var existingData = _analyticsRepository.GetAll().Where(x => x.RemoteClientId == record.RemoteClientId
+                                         && x.Date.Year == record.Date.Year
+                                         && x.Date.Month == record.Date.Month
+                                         && x.Date.Day == record.Date.Month
+                                         && x.OrganizationId == record.OrganizationId
+                                         && x.DepartmentId == record.DepartmentId
+                                         && x.Periodicity == record.Periodicity).FirstOrDefault();
+                            if (existingData == null)
+                            {
+                                await _analyticsRepository.InsertAsync(record);
+                            }
+                            else
+                            {
+                                existingData.Average = record.Average;
+                                existingData.Sum = record.Sum;
+                                existingData.Count = record.Count;
+                                await _analyticsRepository.UpdateAsync(existingData);
+                            }
+                        } 
+                    }
+                    _unitOfWorkManager.Current.SaveChanges();
+                    uow.Complete();
+                    
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
         public async Task<Analytics> CreateOrUpdateAsync(Analytics input)
         {
             try

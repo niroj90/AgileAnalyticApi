@@ -18,6 +18,21 @@ namespace AgileInsights.Analytics
             _analyticsManager = analyticsManager;
             _objectMapper = objectMapper;
         }
+
+        public async Task BatchCreateOrUpdat(List<AnalyticsInputDto> input)
+        {
+            try
+            {
+                var analyticsList = _objectMapper.Map<List<Analytics>>(input);
+                await _analyticsManager.BatchCreateOrUpdateAsync(analyticsList);
+            }
+            catch (Exception ex)
+            {
+
+                
+            }
+        }
+
         public async Task<AnalyticsOutputDto> CreateOrUpdateAsync(AnalyticsInputDto input)
         {
             try
