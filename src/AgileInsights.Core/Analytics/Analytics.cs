@@ -21,6 +21,8 @@ namespace AgileInsights.Analytics
         public decimal Average { get; set; }
         public decimal Sum { get; set; }
         public int Count { get; set; }
+        public bool IsHoliday { get; set; }
+        public bool IsRainy { get; set; }
 
         public virtual RemoteClient RemoteClient { get; set; }
     }
